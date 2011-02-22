@@ -1,0 +1,85 @@
+#sfb_sidebar {
+	border-top: 1px solid #CBCCCB;
+	width: 210px;
+	float: left;
+	margin: 0;
+}
+
+.prop-box {
+	padding: 10px 2px 12px 14px;
+	border-bottom: 1px solid #CBCCCB;
+	border-left: 1px solid #CBCCCB;
+	border-right: 1px solid #CBCCCB;
+}
+
+.prop-box-header {
+	font-size: 12px;
+}
+
+.property-value {
+	width: 177px;
+	margin-top: 10px;
+}
+.property-status {
+	margin-right: 20px;
+	margin-bottom: 0px;
+}
+
+#sfb_results {
+	/*border: 1px solid #CBCCCB;*/
+	margin-left: 15px;
+	padding: 0px 10px;
+	float: left;
+}
+
+#show_extra_props {
+	float: right;
+	padding: 0px 10px;
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 190px;
+}
+
+.min {
+	width: 60px;
+}
+
+.max {
+	width: 60px;
+}
+
+
+
+
+.prop-box-header a {
+	text-decoration: none;
+}
+
+.prop-box-header a:hover {
+	text-decoration: underline;
+}
+
+.prop-box-content {
+	margin-top: 10px;
+}
+
+.property-status {
+	float: right;
+}
+
+.property-value {
+	margin: auto;
+}
+
+
+
+
+
+
+.clear {
+	clear: both;
+}
