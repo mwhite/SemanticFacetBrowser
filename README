@@ -1,0 +1,3 @@
+Require SemanticFacetBrowser.php in your LocalSettings.php to install, then navigate to Special:BrowseFacets/SomeCategoryName.
+
+A proper overview will be posted on MediaWiki.org once SFB is in a position to be released.

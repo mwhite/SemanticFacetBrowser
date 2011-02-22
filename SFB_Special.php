@@ -76,6 +76,10 @@ class SFBSpecialPage extends SpecialPage {
 		wfProfileOut('SFB:execute');
 	}
 	
+	/**
+	 * Construct an inline Ask query and send it to the parser.
+	 * @return string html
+	 */
 	protected function getResultOutput() {	
 		global $wgOut;
 		
@@ -152,6 +156,10 @@ class SFBSpecialPage extends SpecialPage {
 	}
 	
 	
+	/**
+	 * Add html for the box for one property, including any type-specific input fields.
+	 * @param SFBProperty $property
+	 */
 	protected function printPropertyInput($property) {
 		global $wgOut;
 		
