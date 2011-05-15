@@ -207,7 +207,7 @@ FROM (
 		
 		(
 			SELECT 
-				a.p_id, CONCAT(a.value_xsd, ' ', a.value_unit) AS value
+				a.p_id, a.value_xsd AS value
 			FROM
 				$cl cl
 			INNER JOIN ($page p, $smw_ids s, $atts a)
