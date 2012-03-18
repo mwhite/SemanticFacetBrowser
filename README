@@ -1,7 +1,0 @@
-Require SemanticFacetBrowser.php in your LocalSettings.php to install, then navigate to Special:BrowseFacets/SomeCategoryName.
-
-A proper overview will be posted on MediaWiki.org once SFB is in a position to be released.
-
-NOTE: This extension provides autocompletion for all values of all properties of all pages in a category, with one database query.
-
-If you have a wiki with thousands of pages in a category with many properties each, the query could take several seconds.
